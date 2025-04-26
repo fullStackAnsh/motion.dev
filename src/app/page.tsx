@@ -1,11 +1,11 @@
-import Box from '@/components/box'
+import SpiningBall from '@/components/SpiningBall'
 import React from 'react'
 
 function page() {
   return (
    <>
    <div className='w-[100vw] h-[100vh] flex justify-center items-center'>
-     <Box />
+     <SpiningBall />
    </div>
    </>
   )
