@@ -4,9 +4,7 @@ import { easeInOut } from 'motion'
 
 function Animation() {
   return (
-   <motion.div className='w-40 h-60 rounded-2xl bg-amber-300' whileHover={{skewX:-10,skewY:-10}}>
-
-   </motion.div>
+   <motion.h1 className='text-2xl font-bold' initial={{x:'-100%'}} animate={{x:'0'}} transition={{duration:1}}>Sliding Text</motion.h1>
   )
 }
 
